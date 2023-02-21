@@ -82,7 +82,7 @@ A website for keeping track of todo tasks
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](https://preciousbetine.github.io/microverse-todo-list)
+- [Live Demo Link](https://preciousbetine.github.io/microverse-todo-list/dist)
 <!-- - No Live Demo yet -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,7 +153,7 @@ Example command:
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-This website is live at [this link](https://preciousbetine.github.io/microverse-todo-list)
+This website is live at [this link](https://preciousbetine.github.io/microverse-todo-list/dist)
 
 <!--
 Example:
