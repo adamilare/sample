@@ -1,6 +1,6 @@
 import './style.scss';
 
-const todoList = [
+const tasks = [
   {
     description: 'Task 1',
     completed: false,
@@ -22,3 +22,22 @@ const todoList = [
     index: 3,
   },
 ];
+
+const todoList = document.getElementById('todo-list');
+
+tasks.forEach((task) => {
+  const listItem = document.createElement('li');
+  const checkBox = document.createElement('input');
+  checkBox.type = 'checkbox';
+
+  const taskDescription = document.createElement('span');
+  taskDescription.innerText = task.description;
+  taskDescription.classList.add('task-description');
+
+  const handle = document.createElement('span');
+  handle.classList.add('material-symbols-outlined');
+  handle.innerText = 'more_vert';
+
+  listItem.append(checkBox, taskDescription, handle);
+  todoList.appendChild(listItem);
+});
