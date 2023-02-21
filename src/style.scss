@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#container {
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid #c5c4c4;
+  box-shadow: 0 10px 10px 3px #f0f0f0;
+  display: flex;
+  flex-direction: column;
+
+  * {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 20px;
+    border: none;
+    color: gray;
+    cursor: pointer;
+  }
+}
+
+#header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#add-to-do {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  input {
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    flex: 1 1 auto;
+  }
+}
