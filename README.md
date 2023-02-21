@@ -126,7 +126,6 @@ To install the packages in package.json, run
   cd microverse-to-do-list
   npm install
 ```
--
 
 ### Usage
 
@@ -135,8 +134,6 @@ To run the project:
 ```sh
   npm start
 ```
-
--
 
 <!--
 ### Run tests
