@@ -82,7 +82,7 @@ A website for keeping track of todo tasks
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](https://preciousbetine.github.io/microverse-todo-list/dist)
+- [Live Demo Link](https://preciousbetine.github.io/microverse-to-do-list/dist)
 <!-- - No Live Demo yet -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,7 +114,7 @@ Clone this repository to your desired folder:
 
 ```sh
 cd my-folder
-git clone https://github.com/preciousbetine/microverse-todo-list.git
+git clone https://github.com/preciousbetine/microverse-to-do-list.git
 ```
 
 ### Install
@@ -123,7 +123,7 @@ git clone https://github.com/preciousbetine/microverse-todo-list.git
 To install the packages in package.json, run
 
 ```sh
-  cd microverse-todo-list
+  cd microverse-to-do-list
   npm install
 ```
 -
@@ -153,7 +153,7 @@ Example command:
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-This website is live at [this link](https://preciousbetine.github.io/microverse-todo-list/dist)
+This website is live at [this link](https://preciousbetine.github.io/microverse-to-do-list/dist)
 
 <!--
 Example:
