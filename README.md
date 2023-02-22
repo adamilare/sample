@@ -98,7 +98,7 @@ A website for keeping track of todo tasks
 In order to run this project you need:
 
 - A web browser
-- node js runtime and npm
+- Node js runtime and npm
 
 <!--
 Example command:
@@ -123,8 +123,8 @@ git clone https://github.com/preciousbetine/microverse-to-do-list.git
 To install the packages in package.json, run
 
 ```sh
-  cd microverse-to-do-list
-  npm install
+cd microverse-to-do-list
+npm install
 ```
 
 ### Usage
@@ -132,7 +132,7 @@ To install the packages in package.json, run
 To run the project:
 
 ```sh
-  npm start
+npm start
 ```
 
 <!--
